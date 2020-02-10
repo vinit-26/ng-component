@@ -1,0 +1,9 @@
+.btn-blog{
+    font-weight: 800;
+}
+:host {
+    margin: 0px;
+}
+.fav {
+    background-color: #d3d3d3;
+}

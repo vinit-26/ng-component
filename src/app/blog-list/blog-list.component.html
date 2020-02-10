@@ -1,0 +1,10 @@
+<div class="container">
+    <a href="#" (click)="expandAll()" rel="noopener noreferrer">Expand All</a>
+    <a class="ml-5" href="#" (click)="fevAll()" rel="noopener noreferrer">Favorite All</a>
+    <app-blog-post-tile 
+    *ngFor="let post of blogPost[currPage]" 
+    [post]="post" #tile>
+    </app-blog-post-tile>
+    <!-- <app-blog-post-tile [post]="blogPost[0][0]" #tile></app-blog-post-tile> -->
+    <app-paginator [noOfPages]="blogPost.length" (pageNoClicked)="updatePage($event)"></app-paginator>
+</div>
