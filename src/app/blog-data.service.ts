@@ -9,14 +9,14 @@ export class BlogDataService {
   getData() {
     return [
       [
-        {
-          title: 'Blog 1',
-          summary: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
-        },
-        {
-          title: 'Blog 2',
-          summary: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
-        },
+        // {
+        //   title: 'Blog 1',
+        //   summary: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+        // },
+        // {
+        //   title: 'Blog 2',
+        //   summary: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+        // },
         {
           title: 'Blog 3',
           summary: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
