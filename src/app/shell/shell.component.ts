@@ -6,7 +6,7 @@ import { Component, OnInit, ContentChild } from '@angular/core';
   styleUrls: ['./shell.component.css']
 })
 export class ShellComponent implements OnInit {
-@ContentChild('apHeader') headerElem;
+@ContentChild('apHeader', { static: false }) headerElem;
   constructor() { }
 
   ngOnInit(): void {
